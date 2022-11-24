@@ -11,8 +11,8 @@
 int main(){
     double x1 = 2.0; 
     double x2 = 3.0;; 
-    double x3 = 1e-12; 
-    printf("%.14f",x3);
+    float x3 = 1e-12; 
+    printf("%f",x3);
 
     return 0; 
 }
